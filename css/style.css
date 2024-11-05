@@ -1,0 +1,201 @@
+/*.element {
+
+    /*Le décalage horizontal de l'ombre.Le décalage vertical de l'ombre.L'adoucissement du dégradé.
+La couleur de l'ombre.
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    padding: 100p*/
+
+        /*On obtient une ombre noire, portée horizontalement et verticalement, de 6 pixels, sans adoucissement. Ce qui n'est pas 
+        forcément l'effet recherché… Ajoutons donc un adoucissement grâce au troisième paramètre de la propriété  box-shadow  , tout en jouant sur l'opacité de la couleur avec RGBA :
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    padding: 100px;
+
+    /*border-top  : bordure du haut.border-bottom  : bordure du bas.border-left  : bordure de gauche.
+
+border-right  : bordure de droite
+
+border-top: 3px #EB5353 dotted;
+border-right: 3px #F9D923 double;
+border-bottom: 3px #36AE7C dashed;
+ border-left: 3px #187498 solid;*/
+
+
+    /*font-size: 25px;
+    background-color: skyblue;
+    border-left: 5px #187498 solid;
+    padding: 100px;
+
+    /*En haut à gauche.En haut à droite.En bas à droite.En bas à gauche.*/
+    /*font-size: 25px;
+    background-color: skyblue;
+    border-radius: 10px 30px 0px 90px;
+    padding: 100px;
+
+    /*Il ne reste plus qu'à cliquer sur "copy" pour reporter la valeur du border-radius 
+    générée automatiquement (sans oublier le point virgule  ;  à la fin de la ligne) 
+    dans notre code */
+    /*font-size: 25px;
+    background-color: skyblue;
+    border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    padding: 100px;
+   
+
+}
+/*
+h1,p{
+color: #187498
+}
+body{
+
+<header>  : en-tête ;
+
+<footer>  : pied de page ;
+
+<nav>  : liens principaux de navigation ;
+
+<section>  : section de page ;
+
+<aside>  : informations complémentaires ;
+
+<article>  : article indépendant
+    background: linear-gradient(to right,#000046, #1CB5E0);
+}*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+.turquoise {
+    padding: 15px;
+    border: none;
+    width: 200px;
+    background: #48D1CC;
+    color: #242424;
+  }
+  
+  .turquoise-round {
+    padding: 15px;
+    border: none;
+    width: 200px;
+    background: #48D1CC;
+    color: #242424;
+    border-radius: 30px;
+  }
+  
+  .wide {
+    padding: 15px;
+    border: none;
+    background: #48D1CC;
+    color: #242424;
+    width: 400px;
+  }
+  
+  .orange-round {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    background: #e67e22;
+    color: #242424;
+  }
+  /* Un bouton classique. */
+.btn {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    background: #48D1CC;
+    color: #242424;
+}
+/* Un bouton classique. */
+.btn {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    background: #48D1CC;
+    color: #242424;
+}
+
+/* Un bouton classique mais avec des angles ronds. */
+.btn-round {
+border-radius: 30px;
+}
+
+/* Un bouton classique mais plus large. */
+.btn-wide {
+width: 400px;
+}
+
+/* Un bouton classique mais avec une couleur de fond orange. */
+.btn-orange {
+background-color: #e67e22;
+}
+
+#carapuce {
+
+    background-image: url(<https://www.pokepedia.fr/images/c/cc/Carapuce-RFVF.png>;);
+    
+      background-size: cover;
+    
+    }
+    
+    .salameche {
+    
+    background-image: url(<https://www.pokepedia.fr/images/thumb/8/89/Salam%C3%A8che-RFVF.png/800px-Salam%C3%A8che-RFVF.png>;);
+    
+      background-size: cover;
+    
+    }
+
+    .navbar {
+
+        display: flex;
+      
+        flex-direction: row;
+      
+        align-items: center;
+      
+        justify-content: space-between;
+      
+      }
+      .navbar__link {
+        margin-left: 30px;
+        color: #242424;
+        text-decoration: none;
+      }
+      .navbar__link--purple {
+
+        color: #a5b4fc;
+  
+  }
+  .nav {
+    text-align: right;
+  }
+  .nav .nav__link {
+    font-size: 15px;
+    padding-left: 30px;
+  }
+  .nav .nav__link .nav__link--purple {
+    color: #a5b4fc;
+  }
+  .nav {
+    text-align: right;
+    .nav__link {
+      font-size: 15px;
+      padding-left: 30px;
+      .nav__link--purple {
+          color: #a5b4fc;
+    }
+  }
+}

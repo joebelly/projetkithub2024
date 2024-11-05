@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons/bootstrap-icons.scss" rel="stylesheet">
+    <link href="css/titre.css" rel="stylesheeet">
+</head>
+<body>
+    <!--heading tags-->
+    <h1>bootstrap 5 tutoriel</h1>
+    <h2>this is an h2</h2>
+    <h3>this is an h3</h3>
+    <h2 class="h3">this is an h2 tag width h3 class </h2>
+    <!--display headings-->
+    <p class="display-1">display 1 headings</h1>
+    <p class="display-3">display 3 headings </h1>
+    <p class="display-6">display 6 headings</h1>
+
+    <!--lead text&alignement-->
+    <p>bonjour vous tous j'espere que vous allez bien</p>
+    <p class="lead">bonjour vous tous j'espere que vous allez bien</p>
+    <p class="text-center">bonjour vous tous j'espere que vous allez bien</p>
+    <p class="lead text-end">bonjour vous tous j'espere que vous allez bien</p>
+    <p class="lead text-start">bonjour vous tous j'espere que vous allez bien</p>
+    <p class="text-decoration-underline">bonjour vous tous j'espere que vous allez bien</p>
+    <p class="text-decoration-line-through">bonjour vous tous j'espere que vous allez bien</p>
+    <p class="fw-bold">this is bold text</p>
+    <small>this is small text</small>
+
+    <!--text colors-->
+    <p class="text-primary">theme primary colour</p>
+    <p class="text-whitesmoke">theme white colour</p>
+    <p class="text-warning">theme warning colour</p>
+    <p class="text-success">theme success colour</p>
+    <p class="text-info">theme info colour</p>
+    <p class="text-danger">theme danger colour</p>
+    <p class="text-secondary">theme secondary colour</p>
+    <p class="text-muted">theme muted colour</p>
+    <!--bg colors-->
+     <p class="text-white bg-primary">this is white color  </p>
+     <p class="text-white bg-danger">this is imagine color</p>
+     <p class="text-white bg-secondary">this example color</p>
+
+     <!--basic button-->
+     <h2>button</h2>
+        <button class="text-white btn btn-primary btn-lg">primary button</button>
+        <button class="text-white btn btn-danger btn-lg">danger button</button>
+        <button class="text-white btn btn-info btn-lg">info button</button>
+        <button class="text-white btn btn-warning btn-lg">warning button</button>
+        <button class="text-white btn btn-secondary btn-lg">secondary button</button>
+            <!--anchor tags as buttons-->
+        <h2>links anchor tags as buttons</h2>
+        <a href="#" class="btn btn-info">anchor succes</a>
+        <a href="#" class="btn btn-danger">anchor danger</a>
+     <!--button size-->
+        <h2>buttons size</h2> 
+        <button class="btn btn-lg btn-info">size button</button>
+        <button class="btn btn-sm btn-primary">size button</button>
+     <!--button styles-->
+     <h2>button styles</h2>
+        <button class="btn btn-outline-primary">button style</button>
+        <button class="btn btn-outline-secondary btn-lg">button style anchor </button>
+     <!--button Groups-->
+            <h2>button groups</h2>
+            <div class="btn-group">
+        <a href="#" class="btn btn-primary">button 1</a>
+        <a href="#" class="btn btn-info">button 1</a>
+        <a href="#" class="btn btn-warning">button 1</a>
+            </div>
+     <!--margin and padding-->
+        <div class="bg-primary m-1 p-1">small margin and padding</div><!--m-1 c'est le petit margin m-2 m-3 m-4 m-5 hama uko ugenda
+        urahindura valeur niko dimansion zihinduka hama padding p-1 p-2 p-3 p-4 p-5 -->
+        <div class="bg-primary m-4 p-3">small margin and padding</div>
+        <div class="bg-primary my-3 px-5">margin in y direction, padding in x direction </div><!--hama my iduha direction ya y hamwe na direcction ya x gusa 
+        uko valeur zihinduka niko na dimension ahinduka-->
+        <div class="bg-primary mt-3 mb-4 ms-5 me-5 ps-5 pt-4 pe-2 pb-1 ">m & p for each direction</div><!--margin top:mt, margin botton:mb, margin start:ms, margin end:me-->
+     <!--borders-->
+<div class="m-3 p-3 border">default border</div> <!--bordure ya kadra hose ni border-->
+<div class="m-3 p-3 border-top border-end border-start border-bottom">individual borders</div><!--bordure inca umurongo hejuru ni bordure border-top
+ border-end igashirako impera akarongo hama border-bottom nayo iwuca musi umurongo--> 
+ <div class="m-3 p-3 border-top border-end">borders success colour </div>
+ <div class="m-3 p-3 border-start border-success">individual borders</div>
+ <div class="m-3 p-3 border-start border-danger border-5">individual borders</div>
+ <div class="m-3 p-3 rounded-pill border border-5">rounded corners</div>
+ <div class="m-3 p-3 rounded border border-5">rounded corners</div>
+     <!--box shadow-->
+<div class="m-3 p-3 shadow-sm">element with small box shadow--</div>
+<div class="m-3 p-3 shadow">element with large box shadow</div>
+     <!--font weight-->
+<p class="fw-bold">text bold</p><!--fw: c'est font weight-->
+<p class="fw-bolder">text bolder</p>
+<p class="fw-light">light text</p>
+<p class="fst-italic">italic text</p><!--fst: font style-->
+<p class="fst-italic fw-light">italic text et light</p>
+<!--c'est le container en div-->
+           <div class="container my-5"><!--mais ici c'est pour montre la separation avant my-5 devant my-5 -->
+          <h2>normal container</h2>
+          <p>Quoi qu’il en soit, vos objectifs doivent être mesurables, quantifiables, et analysables dans le temps. 
+            Toute action doit permettre de changer une situation existante et d’être renouvelée ou corrigée.
+             Vous devez tout simplement pouvoir piloter la performance de vos actions.</p>
+   </div>
+   <div class="container-fluid">
+    <h2>fluid container</h2>
+    <p>Quoi qu’il en soit, vos objectifs doivent être mesurables, quantifiables, et analysables dans le temps. 
+        Toute action doit permettre de changer une situation existante et d’être renouvelée ou corrigée.
+         Vous devez tout simplement pouvoir piloter la performance de vos actions.</p>
+   </div>
+   <div class="container-lg my-5">
+    <h2>100% width until lg screens, then container</h2>
+    <p>Quoi qu’il en soit, vos objectifs doivent être mesurables, quantifiables, et analysables dans le temps. 
+        Toute action doit permettre de changer une situation existante et d’être renouvelée ou corrigée.
+         Vous devez tout simplement pouvoir piloter la performance de vos actions.</p>
+   </div>
+   <div class="container-xl my-5">
+    <h2>100% width until xl screens, then container</h2>
+    <p>Quoi qu’il en soit, vos objectifs doivent être mesurables, quantifiables, et analysables dans le temps. 
+        Toute action doit permettre de changer une situation existante et d’être renouvelée ou corrigée.
+         Vous devez tout simplement pouvoir piloter la performance de vos actions.</p>
+   </div>
+   <!--ici c'est le container lg-->
+   <div class="container-lg my-5 ">
+    <h2>basic grid</h2>
+            <div class="row">
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col1</div>
+        </div>
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col2</div>
+        </div>
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col3</div>
+        </div>
+        <div class="col">
+            <div class="p-5 bg-primary text-light">col4</div>
+        </div>
+            </div>
+   </div>
+   <div class="container-lg my-5">
+    <h2>column widths</h2>
+    <div class="row">
+        <div class="col-6">
+            <div class="p-5 bg-primary text-light">col1</div>
+        </div>
+        <div class="col-3">
+            <div class="p-5 bg-primary text-light">col2</div>
+        </div>
+        <div class="col-3">
+            <div class="p-5 bg-primary text-light">col3</div>
+        </div>
+            </div>
+   </div>
+   <div class="container-lg my-5">
+    <h2>responsive column widths</h2>
+    <div class="row">
+        <div class="col-sm-4 col-lg-6">
+            <div class="p-5 bg-primary text-light">col1</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+            <div class="p-5 bg-primary text-light">col2</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+            <div class="p-5 bg-primary text-light">col3</div>
+        </div>
+            </div>
+   </div>
+   <div class="container-lg my-5">
+    <h2>justifying columns</h2>
+    <div class="row justify-content-between">
+<div class="col-md-3">
+    <div class="p-5 bg-primary text-light">col1</div>
+</div>
+<div class="col-md-3">
+    <div class="p-5 bg-primary text-light">col2</div>
+</div>
+<div class="col-md-3">
+    <div class="p-5 bg-primary text-light">col2</div>
+</div>
+    </div>
+   </div>
+</body>
+</html>
