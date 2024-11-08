@@ -14,3 +14,19 @@ while (i < 3) {
     console.log(i)
     i++
 }
+
+//Entame function
+
+function retournerMessageScore(score, nombreQuestions) {
+    let message = 'Votre score est de ' + score + ' sur ' + nombreQuestions
+    return message
+}
+let nouveauMessage = retournerMessageScore(5, 10)
+console.log(nouveauMessage)
+
+// Liste des mots utilisés pour le jeu
+const listeMots = ['Bonjour', 'Salut', 'Coucou']
+const listePhrases = ['Bonjour, comment allez-vous ?', 'Salut, ça va ?', 'Coucou, ça va ?']
+
+console.log(listeMots)
+console.log(listePhrases)
