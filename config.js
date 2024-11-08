@@ -1,6 +1,6 @@
 // Liste des mots utilisés pour le jeu
-const listeMots = ['Bonjour', 'Salut', 'Coucou']
-const listePhrases = ['Bonjour, comment allez-vous ?', 'Salut, ça va ?', 'Coucou, ça va ?']
+const listeMot = ['Bonjour', 'Salut', 'Coucou']
+const listePhrase = ['Bonjour, comment allez-vous ?', 'Salut, ça va ?', 'Coucou, ça va ?']
 
 let monNombre = 1
 // monNombre est une variable globale, car elle est déclarée en dehors d’un bloc de code
@@ -21,6 +21,8 @@ console.log(monNombreLocal) // monNombreLocal n’est pas accesssible
 // Liste des mots utilisés pour le jeu
 const listeMots = ['Bonjour', 'Salut', 'Coucou']
 const listePhrases = ['Bonjour, comment allez-vous ?', 'Salut, ça va ?', 'Coucou, ça va ?']
+console.log(listeMots)
+console.log(listePhrases)
 //cette variable va contenir le mot ou la phrase entre par l'utilisateur
 let monUtilisateur;
 
@@ -42,6 +44,22 @@ if (choix == "mots")
 {
     for (let i = 0; i < listeMots.length; i++)
     {
-        
+        monUtilisateur = prompt("Entrez le mot : " + listeMots[i])
+        if (monUtilisateur === listePhrases[i])
+        {
+            score++
+        }
+    }
+}else {
+    for (let i = 0; i < listePhrases.length; i++)
+    {
+        monUtilisateur = prompt("Entrez la phrase : " + listeMots[i])
+        if (monUtilisateur === listePhrases[i])
+        {
+            score++
+        }
     }
 }
+
+//on affiche le score de l'utilisateur
+console.log(' votre score est de ' + score + ' sur ' + listeMots.length)
