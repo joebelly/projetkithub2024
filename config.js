@@ -63,3 +63,4 @@ if (choix == "mots")
 
 //on affiche le score de l'utilisateur
 console.log(' votre score est de ' + score + ' sur ' + listeMots.length)
+//on affiche le score de l'utilisateur
