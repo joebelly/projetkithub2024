@@ -1,6 +1,6 @@
 // Liste des mots utilisés pour le jeu
-const listeMot = ['Bonjour', 'Salut', 'Coucou']
-const listePhrase = ['Bonjour, comment allez-vous ?', 'Salut, ça va ?', 'Coucou, ça va ?']
+const listeBonjr = ['Bonjour', 'Salut', 'Coucou']
+const listeApres = ['Bonjour, comment allez-vous ?', 'Salut, ça va ?', 'Coucou, ça va ?']
 
 let monNombre = 1
 // monNombre est une variable globale, car elle est déclarée en dehors d’un bloc de code
