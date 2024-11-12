@@ -64,3 +64,18 @@ if (choix == "mots")
 //on affiche le score de l'utilisateur
 console.log(' votre score est de ' + score + ' sur ' + listeMots.length)
 //on affiche le score de l'utilisateur
+
+//partie de l'ulitiser getElementByID
+
+let baliseZoneProposition = document.getElementById("zoneProposition");
+console.log(baliseZoneProposition);
+//partie de recuperer Id
+let baliseZonePropositionSpan = document.querySelector("#zoneProposition span");
+console.log(baliseZonePropositionSpan);
+//partie de recuperer QuerySelectedAll
+
+let listeInputRadio = Document.querySelectorAll(".zoneChoix input")
+console.log(listeInputRadio)
+// Partie de recuperer QuerySelectedAll NodeList
+let listeh2 = document.querySelectorAll(h2)
+console.log(listeh2)
