@@ -79,3 +79,8 @@ console.log(listeInputRadio)
 // Partie de recuperer QuerySelectedAll NodeList
 let listeh2 = document.querySelectorAll(h2)
 console.log(listeh2)
+
+//Partie d'utiliser boucle for
+for (let i = 0; i < listeInputRadio.length; i++) {
+    console.log(listeInputRadio[i]);
+}
