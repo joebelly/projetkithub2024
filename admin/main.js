@@ -38,16 +38,34 @@ nouvelleDiv.appendChild(nouveauTitre)
 nouvelleDiv.appendChild(nouveauParagraphe)
 
 // On ajoute la div dans le body
+let titrePage = "le titre de ma page"
+let h1 = document.createElement("h1")
+h1.innerText = titrePage
+//let body = document.querySelector("body")
+body.appendChild(h1)
+
+let contenueTitre = "le titre de ma page"
+let contenueParagraphe = "le titre de ma paragraphe"
 let body = document.querySelector("body")
-body.appendChild(nouvelleDiv)
-
-
-let contenueTitre = "Azertype"
-let contenueParagraphe = "L'application pour apprendre à taper plus vite !"
-
-let div =  
-     <div>
+let html = `
+    <header>
         <h1>${contenueTitre}</h1>
         <p>${contenueParagraphe}</p>
-    </div>
-    ;
+    </header>
+    `
+body.innerHTML = html
+
+
+//Une petite liste des sujets plus ou moins important dans Angular
+
+	1. Introductions https://angular.dev/overview
+	2. Componennts https://angular.dev/guide/components
+	3. Templates https://angular.dev/guide/templates
+	4. Directives https://angular.dev/guide/directives
+	5. Dependency Injection https://angular.dev/guide/di
+	6. Routing https://angular.dev/guide/routing
+	7. Forms https://angular.dev/guide/forms
+	8. HTTP Client https://angular.dev/guide/http
+
+
+
